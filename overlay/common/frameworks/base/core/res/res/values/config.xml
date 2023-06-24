@@ -512,4 +512,8 @@
         <item>settings_ui/bt_le_audio_contact_sharing_enabled=true</item>
         
     </string-array>
+
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
+
 </resources>

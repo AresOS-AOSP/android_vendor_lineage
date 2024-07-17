@@ -138,6 +138,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/etc/init/init.lineage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-updater.rc
 
+# Cache clenaer
+PRODUCT_PACKAGES += \
+    init.cache_cleaner.rc \
+    init.cache_cleaner.sh
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \

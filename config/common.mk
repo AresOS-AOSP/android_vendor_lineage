@@ -3,9 +3,7 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/ares.mk)
 $(call inherit-product-if-exists, vendor/addons/config.mk)
 # Google Apps
-#$(call inherit-product, vendor/gms/products/gms.mk)
-$(call inherit-product-if-exists, vendor/google/gms/config.mk)
-$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 PRODUCT_BRAND ?= AresOS
 

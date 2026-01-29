@@ -110,6 +110,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/org.lineageos.android.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.android.xml
 
+# Enable Material Design 3 Expressive
+PRODUCT_PRODUCT_PROPERTIES += is_expressive_design_enabled=true
+
 # Enforce privapp-permissions whitelist
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
